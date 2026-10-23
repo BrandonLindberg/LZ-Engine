@@ -24,6 +24,11 @@ FetchContent_MakeAvailable(raylib)
 
 add_executable(Core
     src/main.cpp
+    src/CharacterController.cpp
+    src/Projectile.cpp
+    src/DungeonGenerator.cpp
+    src/Filler.cpp
+    src/FillerSpecs.cpp
 )
 
 target_link_libraries(Core PRIVATE raylib)
